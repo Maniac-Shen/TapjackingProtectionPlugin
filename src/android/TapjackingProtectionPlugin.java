@@ -29,7 +29,7 @@ public class TapjackingProtectionPlugin extends CordovaPlugin {
 	
   @Override
   public void onPause(boolean multitasking) {
-    android.widget.Toast.makeText(cordova.getActivity(), "Switching to Background.", Toast.LENGTH_LONG).show();
+    android.widget.Toast.makeText(cordova.getActivity(), "Switching to Background.", android.widget.Toast.LENGTH_LONG).show();
   }
 	
 }
