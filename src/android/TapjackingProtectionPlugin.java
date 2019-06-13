@@ -22,7 +22,7 @@ public class TapjackingProtectionPlugin extends CordovaPlugin {
 
   @Override
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-    webView.getView().setFilterTouchesWhenObscured(true);
+    //webView.getView().setFilterTouchesWhenObscured(true);
     super.initialize(cordova, webView);
 	
   }
